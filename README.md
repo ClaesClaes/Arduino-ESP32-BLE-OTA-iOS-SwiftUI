@@ -9,6 +9,7 @@ Flash the ESP32 device with the .ino file via Arduino IDE and run the App in Xco
 
 After starting the app, press "send .bin to ESP32 over OTA" to start the OTA file transfer. Watch the "Upload progress percentage" going from 0 to 100%. Once the upload is done the ESP32 waits 1 second and thereafter restarts.
 
-Bluetooth class (BLEConnection) in BluetootheLE.swift inspired by:
+* Ported to Arduino code and based on chegewara example for ESP-IDF: https://github.com/chegewara/esp32-OTA-over-BLE
+* Bluetooth class (BLEConnection) in BluetootheLE.swift inspired by:
 purpln https://github.com/purpln/bluetooth and 
 Chris Hulbert http://www.splinter.com.au/2019/05/18/ios-swift-bluetooth-le/
