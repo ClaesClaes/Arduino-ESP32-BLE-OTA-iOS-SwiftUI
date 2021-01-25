@@ -8,7 +8,7 @@
 import Foundation
 
 /*----------------------------------------------------------------------------
- Load file (fileName: name.extension) return it in Data type
+ Load file (fileName: name, fileEnding: .bin) return it in Data type
  Stored in App main bundle
 ----------------------------------------------------------------------------*/
 func getBinFileToData(fileName: String, fileEnding: String) throws -> Data? {
