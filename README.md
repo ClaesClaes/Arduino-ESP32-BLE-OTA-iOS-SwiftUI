@@ -1,4 +1,7 @@
 # Arduino-ESP32-BLE-OTA-iOS-SwiftUI
+
+*** Please use this (https://github.com/ClaesClaes/Arduino-ESP32-NimBLE-OTA-iOS-SwiftUI) NEW and improved repository instead. It uses NimBLE BLE stack for superior memory footprint. The iOS app also contains more features ******
+
 Arduino example for BLE OTA on a ESP32 using an iOS app
 
 This is a demo on how to upload firmware (.bin file) from an iOS app to an ESP32.
